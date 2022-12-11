@@ -1,0 +1,94 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+  
+}
+
+.spr{
+font-weight: 400;
+font-size: 64px;
+line-height: 85px;
+letter-spacing: 0.2em;
+color: black;
+}
+
+.sprv{
+    text-decoration: none;
+}
+.adonis{
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+letter-spacing: 0.2em;
+margin-left: 43px;
+margin-bottom: 43px;
+}
+
+.infad{
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0.2em;
+margin-left: 43px;
+margin-right: 43px;
+margin-bottom: 43px;
+}
+
+.air{
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+letter-spacing: 0.2em;
+margin-left: 43px;
+margin-bottom: 43px;
+margin-top: 43px;
+}
+
+.infar{
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+letter-spacing: 0.2em;
+margin-left: 43px;
+margin-right: 43px;
+margin-bottom: 43px;
+}
+
+.btb, .bt{
+    color: black;
+    background: white;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;   
+    margin-top: 10px;
+    transition-duration: 0.4s;
+}
+
+.bt:hover{
+    opacity: 70%;
+}
+
+.btb:hover{
+    opacity: 70%;
+}
+
+#dots{
+    display: none;
+}
+
+#more{
+    display: none;
+}

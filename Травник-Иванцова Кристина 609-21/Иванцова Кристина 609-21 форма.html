@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./css/reg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+</head>
+<script src="./css/main.js"></script>
+
+<style>
+    body{
+            background-color: black;
+            background-image: url(./img/фон.png);
+            background-size: cover;
+            width: 100%;
+        }
+        li {
+    list-style-type: none; 
+   }
+</style>
+
+<body>
+    <header>
+        <div class="header_logo">
+            <a href="./Иванцова Кристина 609-21 верстка.html" class="header_logo-link">
+                <img src="./img/svg/лого.svg" alt="//" class="header_logo-pic">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content">
+                <div class="side">
+                    <form action="#" name="form" id="form">
+                        <h1 class="top-text" align="center">Регистрация</h1>
+                        <div class="input-box">
+                            <input type="text" placeholder="Логин" class="_req" name="login" id="login" pattern="^[а-яА-ЯёЁa-zA-Z0-9]+$" required>
+                        </div>
+            
+                        <div class="input-box">
+                            <input type="text" placeholder="Почта" class="_req _email"  name="email" id="email" pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" required>
+                        </div>
+            
+                        <div class="input-box">
+                            <input type="password" class="_req" placeholder="Пароль" name="password" id="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
+                        </div>
+        
+                        <p class="pol">Пол:</p>
+        
+                        <div class="input-select">
+                            <select name="pol" id="pol">
+                                <option disabled>Выберите пол</option>
+                                <option value="1">Женский</option>
+                                <option value="2">Мужской</option>
+                            </select>
+                        </div>
+        
+                        <div >
+                            <div class="input-img">Прикрепить фото:</div>
+                            <input class="inp-img" accept=".jpd, .png" type="file" name="img" id="img">
+                        </div>
+        
+                        <div class="input-checkbox">
+                            <input type="checkbox" name="kof" id="kof" class="_req" required>Примите политику конфиденциальности
+                        </div>
+            
+                        <div class="button">
+                            <input type="button" value="Отправить" name="knop" id="knop" onclick="test(this.form)">
+                        </div>
+                    </form>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <div id="result1"></div>
+     <div id="result2"></div>
+     <div id="result3"></div>
+     <div id="result4"></div>
+     <div id="result5"></div>
+     <div id="result6"></div>
+     <div id="result7"></div>
+     <div id="result8"></div>
+
+
+</body>
+
+</html>
